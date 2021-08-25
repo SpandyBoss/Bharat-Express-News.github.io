@@ -7,7 +7,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 
 
 const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://quiet-retreat-90869.herokuapp.com/https://newsapi.org/v2/top-headlines?country=in&apiKey=be17a5a7e389464796681d8ec2bdfc94`, true);
+xhr.open('GET', `https://gnews.io/api/v4/top-headlines?token=6090b2608b48150261712658ebca771b&lang=en`, true);
 
 xhr.onload = function() {
     if (this.status === 200) {
