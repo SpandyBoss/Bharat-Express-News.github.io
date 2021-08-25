@@ -7,7 +7,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 
 
 const xhr = new XMLHttpRequest();
-xhr.open('GET', `http://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlines?country=in&apiKey=be17a5a7e389464796681d8ec2bdfc94`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=be17a5a7e389464796681d8ec2bdfc94`, true);
 
 xhr.onload = function() {
     if (this.status === 200) {
