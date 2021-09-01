@@ -22,7 +22,7 @@ xhr.onload = function() {
                                 <h2 class="mb-0">
                                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse${index}"
                                     aria-expanded="false" aria-controls="collapse${index}">
-                                   <b>Breaking News ${index+1}:</b> ${element["title"]}
+                                   <b>Breaking News ${index+1}:</b> ${element["title"]} <span>-</span> ${element["source.name"]}
                                 </button>
                                 </h2>
                             </div>
